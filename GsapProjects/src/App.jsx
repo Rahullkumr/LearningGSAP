@@ -1,11 +1,30 @@
-import ProjectsIntro from "./projects/ProjectsIntro";
+// import ProjectsIntro from "./projects/ProjectsIntro";
 
-function App() {
+// function App() {
+//   return (
+//     <>
+//       <ProjectsIntro />
+//     </>
+//   );
+// }
+
+// export default App;
+
+
+
+
+import React from 'react'
+import Spline from '@splinetool/react-spline';
+
+const App = () => {
   return (
-    <>
-      <ProjectsIntro />
-    </>
-  );
+    <div>
+      {/* <Spline scene="https://prod.spline.design/ZLPA-xg6EGkJH0YE/scene.splinecode" /> */}
+      {/* <Spline scene="https://prod.spline.design/ZLPA-xg6EGkJH0YE/scene.splinecode" /> */}
+      <Spline scene="https://prod.spline.design/ZLPA-xg6EGkJH0YE/scene.splinecode" />
+
+    </div>
+  )
 }
 
-export default App;
+export default App
